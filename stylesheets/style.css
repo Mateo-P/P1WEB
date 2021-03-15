@@ -1,0 +1,379 @@
+body {
+  font-family: 'Lato', sans-serif;
+  background: #ECE9E9;
+}
+.center{
+  min-width: 1440px;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(270deg, #745ECE 0%, rgba(105, 72, 237, 0.41) 47.4%, #5E63C8 82.29%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.centerContent{
+  min-width: 1440px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 159px;
+}
+.navig {
+  text-decoration: none;
+}
+.container {
+width: 1240px;
+padding: 0;
+
+
+}
+.errorMessage {
+  color: red;
+}
+.navbar{
+width: 1440px;
+height: 80px;
+
+}
+
+.lupita{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+width: 56px;
+height: 47px;
+left: 1284px;
+top: 17px;
+
+background: #E5E5E5;
+border: 1px solid #C6C2C2;
+box-sizing: border-box;
+}
+img.lupita{
+ 
+  margin: 5px 10px 6px 10px;
+}
+.imagencita{
+
+  width: 100px;
+  height: 60px;
+  margin-left: 100px;
+  margin-top: 7px;
+  
+  background: url(logo_test.png);
+  mix-blend-mode: normal;
+  border-radius: 2px;
+}
+.form-control{
+  position: absolute;
+width: 892px;
+height: 47px;
+left: 448px;
+top: 17px;
+
+background: #FFFFFF;
+}
+.heart{
+  position: absolute;
+width: 44px;
+height: 40px;
+left: 1375px;
+top: 17px;
+background-color:transparent;
+}
+.img-thumbnail{
+  background-color:transparent;
+  border:none;
+}
+.cardItem{
+  display: flex;
+  align-items: flex-start;
+  height: 221px;
+  padding: 30px 79px 11px 44px;
+  background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.15);
+box-sizing: border-box;
+}
+.content{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-left: 124px;
+}
+.iteminfo {
+
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+}
+.priceitem{
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+}
+.nameitem {
+  margin-top:47px;
+
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;
+
+}
+.location{
+  font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16.8px;
+
+color: #000000;
+}
+.breadCrumb{
+position: absolute;
+
+height: 32px;
+margin-left: -50px;
+margin-top: -102px;
+
+
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+text-align:left;
+
+color: rgba(0, 0, 0, 0.67);
+}
+.itemdetailcard {
+padding: 54px 50px 31px 50px;
+width: 1240px;
+height: 852px;
+
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.15);
+box-sizing: border-box;
+}
+.itemdetailpicture{
+  position: absolute;
+
+
+border-radius: 15px;
+}
+.itemdetaildescription{
+position: absolute;
+width: 412px;
+height: 31px;
+margin-top: 547px;
+
+
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 34px;
+
+color: #000000;
+
+}
+.itemdetailinfo {
+  position: absolute;
+width: 828px;
+max-height: 170;
+margin-top: 601px;
+overflow:auto;
+
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+text-align: justify;
+
+color: #B8ACAC;
+}
+.itemdetailstatus {
+position: absolute;
+width: 312px;
+margin-left: 828px;
+
+}
+.itemSell{
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  
+  color: #000000;
+}
+.itemdetailname {
+position: absolute;
+
+width: 312px;
+height: 31px;
+margin-top: 66px;
+}
+.longname {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+.itemdetailprice {
+
+width: 312px;
+height: 33px;
+margin-top: 26px;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+}
+.pink {
+width: 312px;
+height: 51px;
+margin-top: 48px;
+background: #C968CB;
+border-radius: 20px;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+border: none;
+padding: 0;
+color: #FFFFFF;
+}
+.purple {
+width: 312px;
+height: 51px;
+margin-top: 18px;
+background: #8C86D7;
+border-radius: 20px;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+border: none;
+padding: 0;
+color: #FFFFFF;
+}
+.favoritesTitle {
+  position: absolute;
+width: 312px;
+height: 31px;
+margin-top: -104px;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 34px;
+
+color: #000000;
+
+}
+.favoritesHeader{
+  display: flex;
+  align-items: center;
+  width: 1240px;
+  height: 89px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+}
+.form-check{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.form-check-input{
+  
+width: 20px;
+height: 20px;
+margin-left: 40px;
+top: 30px;
+
+background: #C4C4C4;
+border: 1px solid rgba(0, 0, 0, 0.15);
+box-sizing: border-box;
+}
+.deleteFavorites{
+width: 200px;
+height: 51px;
+background: #E1677D;
+border-radius: 20px;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+border: none;
+padding: 0;
+color: #FFFFFF;
+}
+.favoriteItem{
+padding: 20px 0px 21px 0px;
+display: flex;
+align-items: center;
+width: 1240px;
+height: 221px;
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.15);
+box-sizing: border-box;
+}
+.favoriteDetail{
+  margin-left: 68px;
+  height: 180px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+  margin-top: 32px;
+  width: 600px;
+}
+.faovoritePrice{
+  display: flex;
+  align-items: center;
+width: 150px;
+height: 35px;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+margin-bottom: 47px ;
+}
+.favoriteName {
+
+height: 35px;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;
+}
+.favoritePink{
+  margin-left: 36px;
+  margin-right: 56px;
+  width: 200px;
+  height: 51px;
+  background: #C968CB;
+  border-radius: 20px;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+border: none;
+color: #FFFFFF;
+}
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}

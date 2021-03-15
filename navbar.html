@@ -1,0 +1,27 @@
+<div class="cardItem" style="width: 100%">
+    <a class="navig" href="itemDetail.html#${item.id}">
+        <img style="width: 180px; height: 180px;" src="${
+          item.picture
+        }" class="item" alt="holiwis">
+    </a>
+    <div class="content">
+        <div class="iteminfo">
+            <div class="priceitem">
+                <div style="width: 150px; height: 35px;">
+                    ${numberWithCommas(item.price.amount)}
+                </div>
+                ${
+                item.free_shipping
+                ? '<img style="width: 20px; height: 20px;" src="./Assets/Rectangle 4.png" class="item" alt="holiwis" />'
+                : ""
+                }
+            </div>
+            <div class="nameitem" style="width: 500px; height: 35px;">
+                ${item.title}
+            </div>
+        </div>
+        <div style="width: 150px; height: 35px;" class="location">
+            ${item.location}
+        </div>
+    </div>
+</div>
